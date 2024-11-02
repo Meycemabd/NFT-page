@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    color: #2b283a;
+   
+}
+
+body , h1, h3 {
+    margin: 0;
+}
+
+/* Header Styles */
+header, .section-two {
+    background-color: #5f29a3;
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 36px;
+}
+
+h2{
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 20px;
+    color: #d0aaff;
+}
+
+/* Section Styles */
+
+
+.section-two , h1{
+    color: whitesmoke;
+}
+
+/* Container Styles */
+.container {
+    width: 620px;
+    margin: 0 auto;
+}
+
+/* Image Styles */
+.est-img {
+    width: 100%;
+}
+
+p{
+    line-height: 23px;
+}
+
+
+
+
+/* Link Styles */
+a {
+    color: #ef5839;
+    text-decoration: dotted;
+}
+
+a:hover, a:active{
+    color: #d4b44c;
+}
+
+.btn{
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-dark{
+    background-color: #5f29a3;
+    color: whitesmoke;
+}
+
+.btn-mid{
+    background-color: #f0e0ff;
+    color: #5f29a3;
+}
+
+.btn-light{
+    background-color: whitesmoke;
+    color: #5f29a3;
+}
+
+.btn:hover, 
+.btn:active{
+    background-color: #f3e885;
+    color: #2b238a;
+}
+
+
+/*second section */
+
+.sectiontwo-images{
+    width: 300px;
+    border-radius: 4.6px;
+}
+
+.images-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer */
+
+footer{
+    color: #5f29a3;
+    text-align: center;
+}
+
+header , footer ,section {
+    padding: 45px 0px;
+}
